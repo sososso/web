@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    .static{
+      border: 1px solid blue;
+      width: 100px;
+      height: 100px;
+      position: static;
+
+    }
+     .relative{
+       border: 1px solid red;
+       width: 100px;
+       height: 100px;
+       position: relative;
+       left: 50px;
+       top: 50px;
+
+     }
+
+     .absolute{
+       border: 1px solid green;
+       width: 100px;
+       height: 100px;
+       position: absolute;
+       left: 50px;
+       top: 50px;
+     }
+
+     .fixed{
+       border: 1px solid yellow;
+       width: 100px;
+       height: 100px;
+       position: fixed;
+       top: 0px;
+       right: 0px;
+     }
+     </style>
+  </head>
+  <body>
+    <h1>포지션 관련 트레이닝</h1>
+    <div class="static">static포지션입니다</div>
+     <div class="static">static포지션입니다</div>
+   <div class="relative">relative포지션입니다</div>
+    <div class="absolute">absolute포지션입니다
+      <div class="absolute">
+    <div class="fixed">
+      fixed포지션입니다</div>
+ </body>
+</html>
+
+
+<!--
+1.static
+2.relative
+3.absolute
+4.fixed
+-->
